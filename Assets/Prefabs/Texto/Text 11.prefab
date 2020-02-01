@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 6173225060716466040}
   - component: {fileID: 2884109656532107872}
   m_Layer: 0
-  m_Name: Text 1
+  m_Name: Text 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,5 +311,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85adc96ab95b6145a4eedd75e5b3af2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oracion: bienvenido a mi proyecto asset inacabado  :)
+  oracion: asi que mantente alerta y no se te ocurra mover algo sin MI permiso  8(>_<)8
   frase: {fileID: 6173225060716466040}
