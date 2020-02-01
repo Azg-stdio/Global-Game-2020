@@ -1,64 +1,52 @@
 fileFormatVersion: 2
-guid: 93003a13ea727b04f84c63d8f52d93d7
+guid: f44e72af48c99e444891836ecba98e87
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8296385383580801948
-    second: walk_0
+      213: 7156243124307829213
+    second: teclaE_0
   - first:
-      213: 3218353051568008401
-    second: walk_1
+      213: 8645520148859014679
+    second: teclaE_1
   - first:
-      213: 6971375644381031630
-    second: walk_2
+      213: -486763378919092660
+    second: teclaE_2
   - first:
-      213: -3714987382563562326
-    second: walk_3
+      213: 8807230686991603848
+    second: teclaE_3
   - first:
-      213: -2044624726750869082
-    second: walk_4
+      213: -8363759848816278590
+    second: teclaE_4
   - first:
-      213: -1800561202758830752
-    second: walk_5
+      213: -8833034262105538552
+    second: teclaE_5
   - first:
-      213: -7072565547094396234
-    second: walk_6
+      213: -1038920713396262493
+    second: teclaE_6
   - first:
-      213: -6780060589664581786
-    second: walk_7
+      213: 5134450486806057654
+    second: teclaE_7
   - first:
-      213: 2251703588619409307
-    second: walk_8
+      213: 6133023193915852738
+    second: teclaE_8
   - first:
-      213: -5224373444711448209
-    second: walk_9
+      213: -1957957702189246140
+    second: teclaE_9
   - first:
-      213: 8428286525173097495
-    second: walk_10
+      213: -7026726892435820750
+    second: teclaE_10
   - first:
-      213: -2787140197056013511
-    second: walk_11
+      213: -895918776752454779
+    second: teclaE_11
   - first:
-      213: -8260419473583676578
-    second: walk_12
+      213: 5499738046020053922
+    second: teclaE_12
   - first:
-      213: 6000581766031926614
-    second: walk_13
+      213: 6754207098248583773
+    second: teclaE_13
   - first:
-      213: -6959915571989194883
-    second: walk_14
-  - first:
-      213: 960921020097805623
-    second: walk_15
-  - first:
-      213: -3336701548478254045
-    second: walk_16
-  - first:
-      213: -5400053455435091454
-    second: walk_17
-  - first:
-      213: 4408406346810168619
-    second: walk_18
+      213: -2645066676589518241
+    second: teclaE_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -179,13 +167,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walk_0
+      name: teclaE_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3096
-        width: 1000
-        height: 1000
+        y: 820
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7b0a31eaf0297b429ef5d76b951ebb8
-      internalID: -8296385383580801948
+      spriteID: 92d399cc32b0501449bd060d2ece2e27
+      internalID: 7156243124307829213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_1
+      name: teclaE_1
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 3096
-        width: 1000
-        height: 1000
+        x: 294
+        y: 820
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89715f819767c79478bc1e02e0754d10
-      internalID: 3218353051568008401
+      spriteID: af05bb67ccb04f24181cfe75aa374c63
+      internalID: 8645520148859014679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_2
+      name: teclaE_2
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 3096
-        width: 1000
-        height: 1000
+        x: 588
+        y: 820
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,125 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62af78f8091e8fb43bfe1ff72cbf93f4
-      internalID: 6971375644381031630
+      spriteID: 1d7c7dc2ff1879246a2c3047bbb348a4
+      internalID: -486763378919092660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_3
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 3096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f17f073de479de4c96ecbc3a9b84492
-      internalID: -3714987382563562326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_4
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 3096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a60d4175b712124286f954966386103
-      internalID: -2044624726750869082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_5
-      rect:
-        serializedVersion: 2
-        x: 5000
-        y: 3096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b978a51d5e0e8374ca7affd0785dbb4f
-      internalID: -1800561202758830752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_6
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 3096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1b3182f37af7574cab92c3e264dbdda
-      internalID: -7072565547094396234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_7
-      rect:
-        serializedVersion: 2
-        x: 7000
-        y: 3096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 200b62234d6c5ed419614523a9084f24
-      internalID: -6780060589664581786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_8
+      name: teclaE_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 2096
-        width: 1000
-        height: 1000
+        y: 616
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86ed3203c55981e4e94240c5826bb868
-      internalID: 2251703588619409307
+      spriteID: 350f4c2afa73ce147bd368f59698807b
+      internalID: 8807230686991603848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_9
+      name: teclaE_4
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 2096
-        width: 1000
-        height: 1000
+        x: 294
+        y: 616
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de772ad8029ad2c41b81e565ef6f548a
-      internalID: -5224373444711448209
+      spriteID: 46f9a661f2b238d4593f727f86c16a0a
+      internalID: -8363759848816278590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_10
+      name: teclaE_5
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 2096
-        width: 1000
-        height: 1000
+        x: 588
+        y: 616
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,125 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b63cbb445c242d848b764ea495265096
-      internalID: 8428286525173097495
+      spriteID: 9b76e55864ae9b1478321ff2d5f4ee5a
+      internalID: -8833034262105538552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_11
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 2096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af39ed90ef66105439c79c7aba3f4d90
-      internalID: -2787140197056013511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_12
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 2096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e125fd59a4c47094db4d2866148398a0
-      internalID: -8260419473583676578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_13
-      rect:
-        serializedVersion: 2
-        x: 5000
-        y: 2096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c136221548d5a045b9e1db4f008d6fb
-      internalID: 6000581766031926614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_14
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 2096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac68e3030c32bc1469f8869869062a23
-      internalID: -6959915571989194883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_15
-      rect:
-        serializedVersion: 2
-        x: 7000
-        y: 2096
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19c13b32ddf183549bb177353af3f6f1
-      internalID: 960921020097805623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_16
+      name: teclaE_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 1096
-        width: 1000
-        height: 1000
+        y: 412
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2587e7ae87879f74f9bd804a5a49fe90
-      internalID: -3336701548478254045
+      spriteID: 2c371fc148996894fbacfdc9eebcc1e1
+      internalID: -1038920713396262493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_17
+      name: teclaE_7
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1096
-        width: 1000
-        height: 1000
+        x: 294
+        y: 412
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c16e2031b24149b459115e998d0d9c37
-      internalID: -5400053455435091454
+      spriteID: 6c0d140ba22441643ab6173a8e7bed91
+      internalID: 5134450486806057654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_18
+      name: teclaE_8
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 96
-        width: 1000
-        height: 1000
+        x: 588
+        y: 412
+        width: 294
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,8 +349,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4aa12fc0b318949ad1d6e4ba8daf3f
-      internalID: 4408406346810168619
+      spriteID: adf5d5eacf70bd14c9ea4e53ab996c49
+      internalID: 6133023193915852738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclaE_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 294
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd5d3bb88cfd1a43b3ae1b9c7535bbb
+      internalID: -1957957702189246140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclaE_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 208
+        width: 294
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2dc3fba3919c14691def0fdce9ba0a
+      internalID: -7026726892435820750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclaE_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 208
+        width: 294
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f863e30d0b3c45c45b038a6027d12fd4
+      internalID: -895918776752454779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclaE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 294
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6888e2527e1e0d34c9ad906561dc89be
+      internalID: 5499738046020053922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclaE_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 4
+        width: 294
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989c682085ff2284cb13bb9fcb42d383
+      internalID: 6754207098248583773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclaE_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4
+        width: 294
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16c3f0ba6288974fa472cff130142b3
+      internalID: -2645066676589518241
       vertices: []
       indices: 
       edges: []

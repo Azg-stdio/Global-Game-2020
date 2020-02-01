@@ -8,6 +8,7 @@ public class InteractObject : MonoBehaviour
     bool interacting = false;
     public GameObject evolve;
     public KeyCode key;
+    public GameObject statemanager;
 
     Animator anim;
     void Start()
@@ -20,8 +21,9 @@ public class InteractObject : MonoBehaviour
     {
         if (interacting && Input.GetKeyDown(key))
         {
-            //anim.Play("FridgeDoor");
-            Debug.Log("Cojo pierna");
+            statemanager.GetComponent<StateManager>().SetState(1);
+            this.gameObject.SetActive(false);
+            popin.SetActive(false);
         }
     }
 
