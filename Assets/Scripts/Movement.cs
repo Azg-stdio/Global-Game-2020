@@ -51,7 +51,6 @@ public class Movement : MonoBehaviour
         {
             isgrounded = true;
         }
-        Debug.Log(isgrounded);
     }
 
     void OnCollisionExit2D(Collision2D col)
@@ -60,6 +59,5 @@ public class Movement : MonoBehaviour
         {
             isgrounded = false;
         }
-        Debug.Log(isgrounded);
     }
 }
