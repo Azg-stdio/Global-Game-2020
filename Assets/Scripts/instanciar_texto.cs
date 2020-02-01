@@ -9,11 +9,23 @@ public class instanciar_texto : MonoBehaviour
     void Start()
     {
         GetComponent<GameObject>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        Instantiate(texto,new Vector2(50,100),Quaternion.identity);
+        
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "prota")
+        {
+            Instantiate(texto, new Vector2(578, 469), Quaternion.identity);
+            Destroy(texto,5f);
+            Debug.Log("coloision");
+        }
+
     }
 }
