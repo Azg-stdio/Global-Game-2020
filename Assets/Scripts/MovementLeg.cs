@@ -117,6 +117,14 @@ public class MovementLeg : MonoBehaviour
         }
     }
 
+    void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.transform.CompareTag("Floor"))
+        {
+            isgrounded = true;
+        }
+    }
+
     void OnTriggerExit2D(Collider2D col)
     {
         if (col.transform.CompareTag("Floor"))
