@@ -61,11 +61,19 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void OnCollisionExit2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Floor")
+        if (col.gameObject.tag == "Water")
         {
-            isgrounded = false;
+            Physics.gravity = new Vector3(0.0f,-1.0f,0.0f);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Water")
+        {
+            Physics.gravity = new Vector3(0.0f, -9.0f, 0.0f);
         }
     }
 }

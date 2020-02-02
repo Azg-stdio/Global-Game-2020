@@ -16,11 +16,11 @@ public class FollowPlayer : MonoBehaviour
     {
         if (statemanager.GetComponent<StateManager>().GetState() == 0)
         {
-            transform.position = new Vector3(ball.position.x, ball.position.y + 3.8f, -5.0f);
+            transform.position = new Vector3(ball.position.x, ball.position.y + 3.0f, -5.0f);
         }
         else if (statemanager.GetComponent<StateManager>().GetState() == 1)
         {
-            transform.position = new Vector3(ball.position.x, ball.position.y +2.75f, -5.0f);
+            transform.position = new Vector3(ball.position.x, ball.position.y +1.95f, -5.0f);
         }
     }
 }
