@@ -18,7 +18,7 @@ public class FinishWorking : MonoBehaviour
 
     IEnumerator FinishGame()
     {
-        yield return new WaitForSeconds(7.0f);
+        yield return new WaitForSeconds(6.5f);
         Application.Quit();
     }
 
