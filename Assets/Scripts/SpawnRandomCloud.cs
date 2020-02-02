@@ -14,10 +14,11 @@ public class SpawnRandomCloud : MonoBehaviour
     public IEnumerator Spawner()
     {
         bool flag = true;
-
+        int randomst;
         while (flag)
         {
-            Instantiate(clouds[Random.Range(0, 5)], new Vector3(-100.0f, 0.0f, 0.0f), Quaternion.identity);
+            randomst = Random.Range(0, 5);
+            Instantiate(clouds[randomst], new Vector3(-100.0f, 0.0f, 0.0f), Quaternion.identity);
             yield return new WaitForSeconds(5.0f);
         }
     }
