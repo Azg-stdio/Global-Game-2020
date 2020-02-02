@@ -14,7 +14,7 @@ public class CloudMovement : MonoBehaviour
         {
             if (!staticpos)
             {
-                transform.position = new Vector3(-45.0f, Random.Range(0.0f, 7.0f), 1.0f);
+                transform.position = new Vector3(-45.0f, Random.Range(0.0f, 7.0f), 0.0f);
             }
             direction = true;
         }
@@ -22,7 +22,7 @@ public class CloudMovement : MonoBehaviour
         {
             if (!staticpos)
             {
-                transform.position = new Vector3(30.0f, Random.Range(0.0f, 7.0f), 1.0f);
+                transform.position = new Vector3(30.0f, Random.Range(0.0f, 7.0f), 0.0f);
             }
             direction = false;
         }
