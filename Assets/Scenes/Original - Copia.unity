@@ -2373,7 +2373,7 @@ MonoBehaviour:
   resetpos: {fileID: 1005897617}
   repeat: 0
   eventmager: {fileID: 449929643}
-  quiettime: 5
+  quiettime: 10
   wait: 0
 --- !u!61 &372168039
 BoxCollider2D:
@@ -2880,7 +2880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &493978273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,7 +3326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &557948910
 Transform:
   m_ObjectHideFlags: 0
@@ -11297,7 +11297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1683034387
 Transform:
   m_ObjectHideFlags: 0
@@ -14576,12 +14576,12 @@ PrefabInstance:
     - target: {fileID: 8637199350788069775, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4802856
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 8637199350788069775, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9657898
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 8637199350788069775, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
