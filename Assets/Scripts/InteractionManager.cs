@@ -13,6 +13,7 @@ public class InteractionManager : MonoBehaviour
     bool onetime;
     public GameObject eventmager;
     public float quiettime = 0.0f;
+    public float wait=0.0f;
 
     void Start()
     {
@@ -25,11 +26,6 @@ public class InteractionManager : MonoBehaviour
         {
             if (onetime)
             {
-                textmanager.GetComponent<SetText>().StartText(text);
-                if (reset)
-                {
-                    col.transform.position = resetpos.position;
-                }
                 if (repeat)
                 {
                     onetime = true;
@@ -38,11 +34,22 @@ public class InteractionManager : MonoBehaviour
                 {
                     onetime = false;
                 }
-                if (quiettime > 0)
-                {
-                    eventmager.GetComponent<EventManager>().StartEvent(quiettime);
-                }
+                StartCoroutine(WaitCertainTime(wait, col));                
             }
+        }
+    }
+
+    IEnumerator WaitCertainTime(float wait, Collider2D col)
+    {
+        yield return new WaitForSeconds(wait);
+        textmanager.GetComponent<SetText>().StartText(text);
+        if (reset)
+        {
+            col.transform.position = resetpos.position;
+        }
+        if (quiettime > 0)
+        {
+            eventmager.GetComponent<EventManager>().StartEvent(quiettime);
         }
     }
 }

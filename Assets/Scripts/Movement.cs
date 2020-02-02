@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     bool isgrounded = true;
     public GameObject eventmanager;
     public GameObject splash;
+    public GameObject sfxmanager;
     
     void Start()
     {
@@ -68,6 +69,7 @@ public class Movement : MonoBehaviour
         if (col.gameObject.tag == "Water")
         {
             GameObject splashclone = Instantiate(splash, transform.position, Quaternion.identity);
+            sfxmanager.GetComponent<MusicManager>().PlaySFX(2);
             Destroy(splashclone, 1.0f);
         }
     }

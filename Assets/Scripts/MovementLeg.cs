@@ -19,6 +19,7 @@ public class MovementLeg : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        GetComponent<BoxCollider2D>().enabled = true;
     }
 
     bool direction;
