@@ -5155,8 +5155,8 @@ MonoBehaviour:
   resetpos: {fileID: 0}
   repeat: 0
   eventmager: {fileID: 449929643}
-  quiettime: 3
-  wait: 2.3
+  quiettime: 7
+  wait: 2
 --- !u!61 &959609783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8379,7 +8379,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e4167f4f9f90c9a43ab02261040b3fb9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -11766,7 +11766,7 @@ GameObject:
   - component: {fileID: 1821680371}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13658,12 +13658,12 @@ PrefabInstance:
     - target: {fileID: 8637199350788069775, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.9
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 8637199350788069775, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -23.9
+      value: -8.2
       objectReference: {fileID: 0}
     - target: {fileID: 8637199350788069775, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
@@ -13744,7 +13744,7 @@ PrefabInstance:
     - target: {fileID: 8637199350788069773, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}
       propertyPath: m_Mass
-      value: 0.7
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8637199350788069772, guid: 6fd119dda306c634f8ab6ca86994b661,
         type: 3}

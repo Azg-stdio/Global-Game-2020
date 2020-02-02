@@ -57,7 +57,7 @@ public class Movement : MonoBehaviour
         }     
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionStay2D(Collision2D col)
     {
         if (col.gameObject.tag=="Floor")
         {
@@ -65,10 +65,27 @@ public class Movement : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Floor")
+        {
+            isgrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Floor")
+        {
+            isgrounded = false;
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Water")
         {
+            rb.velocity = new Vector2(1.5f, rb.velocity.y);
             GameObject splashclone = Instantiate(splash, transform.position, Quaternion.identity);
             sfxmanager.GetComponent<MusicManager>().PlaySFX(2);
             Destroy(splashclone, 1.0f);
@@ -78,7 +95,7 @@ public class Movement : MonoBehaviour
     void OnTriggerExit2D(Collider2D col)
     {
         if (col.gameObject.tag == "Water")
-        {
+        {            
             //Physics.gravity = new Vector3(0.0f, -9.0f, 0.0f);
             //Physics2D.gravity = new Vector3(0.0f, -9.0f, 0.0f);
         }
