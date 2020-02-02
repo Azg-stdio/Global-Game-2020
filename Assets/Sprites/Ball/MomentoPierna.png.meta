@@ -1,7 +1,127 @@
 fileFormatVersion: 2
 guid: 255992a28355bb042bf8021d59a57bcb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7100317899249606937
+    second: MomentoPierna_0
+  - first:
+      213: -6043798680750106909
+    second: MomentoPierna_1
+  - first:
+      213: -5146493846963387062
+    second: MomentoPierna_2
+  - first:
+      213: -4480107024230234633
+    second: MomentoPierna_3
+  - first:
+      213: -3504907505405418769
+    second: MomentoPierna_4
+  - first:
+      213: 5761530692836988651
+    second: MomentoPierna_5
+  - first:
+      213: 9129246410241773572
+    second: MomentoPierna_6
+  - first:
+      213: -6942581008562363315
+    second: MomentoPierna_7
+  - first:
+      213: -8231848739511719440
+    second: MomentoPierna_8
+  - first:
+      213: 289578898366402618
+    second: MomentoPierna_9
+  - first:
+      213: -2135642153155620761
+    second: MomentoPierna_10
+  - first:
+      213: -8398315746516640359
+    second: MomentoPierna_11
+  - first:
+      213: 6403427144797487728
+    second: MomentoPierna_12
+  - first:
+      213: -6329398415926831934
+    second: MomentoPierna_13
+  - first:
+      213: 5000626919418364383
+    second: MomentoPierna_14
+  - first:
+      213: 6290967641767806817
+    second: MomentoPierna_15
+  - first:
+      213: 4160024271774227748
+    second: MomentoPierna_16
+  - first:
+      213: 35008135032583221
+    second: MomentoPierna_17
+  - first:
+      213: 6349428954106438568
+    second: MomentoPierna_18
+  - first:
+      213: -7276146150836216130
+    second: MomentoPierna_19
+  - first:
+      213: -423108822879977023
+    second: MomentoPierna_20
+  - first:
+      213: 7433627600209205677
+    second: MomentoPierna_21
+  - first:
+      213: 7468115156966302992
+    second: MomentoPierna_22
+  - first:
+      213: -352287776747929700
+    second: MomentoPierna_23
+  - first:
+      213: 1616800015430646601
+    second: MomentoPierna_24
+  - first:
+      213: -3170573029754965980
+    second: MomentoPierna_25
+  - first:
+      213: -7431278553099571959
+    second: MomentoPierna_26
+  - first:
+      213: -3326194223140021706
+    second: MomentoPierna_27
+  - first:
+      213: 8587252531147088847
+    second: MomentoPierna_28
+  - first:
+      213: -9127112674787072141
+    second: MomentoPierna_29
+  - first:
+      213: 2417443820532399069
+    second: MomentoPierna_30
+  - first:
+      213: 8331102899170701118
+    second: MomentoPierna_31
+  - first:
+      213: 4463382462469531693
+    second: MomentoPierna_32
+  - first:
+      213: -864577569400763411
+    second: MomentoPierna_33
+  - first:
+      213: 3316666790266869889
+    second: MomentoPierna_34
+  - first:
+      213: -7026691587522444664
+    second: MomentoPierna_35
+  - first:
+      213: -4928060317652428557
+    second: MomentoPierna_36
+  - first:
+      213: -1726271262671191676
+    second: MomentoPierna_37
+  - first:
+      213: -5574451150516721714
+    second: MomentoPierna_38
+  - first:
+      213: -3548544449684616221
+    second: MomentoPierna_39
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +160,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +190,897 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MomentoPierna_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576bc0f874cf78149a302ffc68ac1a22
+      internalID: -7100317899249606937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e083c89c18dad624d9ce50dea0f06d2d
+      internalID: -6043798680750106909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd8c1d78f39db149a2e48c7339f0a6f
+      internalID: -5146493846963387062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce62fd64a8687f34a9b826ae0dbf0c93
+      internalID: -4480107024230234633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_4
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58c07e1be37b394ebcf943ff3ad6e44
+      internalID: -3504907505405418769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_5
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f0216b8bfe66c449768668c9256a9c
+      internalID: 5761530692836988651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_6
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dea0081acaf4a34fbca29c13f0efae9
+      internalID: 9129246410241773572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_7
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8dc0b54bbd20448d202744dec6284
+      internalID: -6942581008562363315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3746ccb05ce2cd4ba4baee3094922e5
+      internalID: -8231848739511719440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c4a9169fafbcd4ebd36f3d309ea05e
+      internalID: 289578898366402618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b396c684c8eab8348894f5c3fcf1e7cf
+      internalID: -2135642153155620761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5b964965f21b241a5be88229db653d
+      internalID: -8398315746516640359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da64573fb19dbcb4db92e5bdf208711e
+      internalID: 6403427144797487728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d13b2a385548f6459042f5436e706b6
+      internalID: -6329398415926831934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402cc69d6c070f944bf3265f86d34e84
+      internalID: 5000626919418364383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_15
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2642a860341c20746ba5b0fcb25cc3ba
+      internalID: 6290967641767806817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ddd6d73e6968045aa09e350261dada
+      internalID: 4160024271774227748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d74c888a364f4dac406506b609a3f
+      internalID: 35008135032583221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69135ba84bb64847b3d669a713bf403
+      internalID: 6349428954106438568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421ee8f8ac15e6c45b583be1fe5f3843
+      internalID: -7276146150836216130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_20
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208e7245b36ff5647a89f376267df506
+      internalID: -423108822879977023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e9dd0b0ad96c0479d633816bf76b97
+      internalID: 7433627600209205677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_22
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d76160616aa53418698e9ee62de44c
+      internalID: 7468115156966302992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_23
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2127c315bc1be40b56d4e48b3d53c3
+      internalID: -352287776747929700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65a87a84c2050047acd356c4a64ac04
+      internalID: 1616800015430646601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca7e54d5c2c83d4794344c05f87dbe2
+      internalID: -3170573029754965980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_26
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3cb1a5673ef444c8b3035eae8694c1
+      internalID: -7431278553099571959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_27
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b40187e5877a4fa8c594a0f159bdc
+      internalID: -3326194223140021706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_28
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d548df8c53e43408deed3bb65a93a9
+      internalID: 8587252531147088847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d1f636c50234b4083f384e17385c1b
+      internalID: -9127112674787072141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_30
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b9aa23206727478ec5b53a047ed36
+      internalID: 2417443820532399069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_31
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc25263779a7bd40853a1fa3b7694b7
+      internalID: 8331102899170701118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842cd78e1c2f28e4d990b79eaf019cfe
+      internalID: 4463382462469531693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b70d1e999a2ef4ebfb95a61197f293
+      internalID: -864577569400763411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e799aa0bd94fedd4394a8010413cf12c
+      internalID: 3316666790266869889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_35
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5389a445dfe6814493f066848077aaa
+      internalID: -7026691587522444664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_36
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55a5ed3eb1b4f4f971afc3fa655547
+      internalID: -4928060317652428557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_37
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfc7918d8387d0439744daf29d597cd
+      internalID: -1726271262671191676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_38
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc314f4d5a75cf44f81fca772e59586c
+      internalID: -5574451150516721714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MomentoPierna_39
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737a052559481914c8cbd0a935e31275
+      internalID: -3548544449684616221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

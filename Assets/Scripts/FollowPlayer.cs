@@ -4,35 +4,23 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public Transform state0, state1, state2;
-    Transform actualstate;
+    public Transform ball;
+    public GameObject statemanager;
     void Start()
     {
-        actualstate = state0;
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(actualstate.position.x, actualstate.position.y, -5.0f);
-    }
-
-    public void SetFollower(int state)
-    {
-        switch (state)
+        if (statemanager.GetComponent<StateManager>().GetState() == 0)
         {
-            case 0:
-                actualstate = state0;
-                break;
-            case 1:
-                actualstate = state1;
-                break;
-            case 2:
-                actualstate = state2;
-                break;
-            default:
-                Debug.Log("Weird");
-                break;
+            transform.position = new Vector3(ball.position.x, ball.position.y + 3.8f, -5.0f);
+        }
+        else if (statemanager.GetComponent<StateManager>().GetState() == 1)
+        {
+            transform.position = new Vector3(ball.position.x, ball.position.y +2.75f, -5.0f);
         }
     }
 }

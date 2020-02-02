@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     Rigidbody2D rb;
     bool isgrounded = true;
+    public GameObject eventmanager;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -16,32 +17,39 @@ public class Movement : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (isgrounded)
+        if (!eventmanager.GetComponent<EventManager>().playerisquiet)
         {
-            int multiplier = 1;
-            float moveHorizontal = Input.GetAxis("Horizontal");
-            Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
-            rb.freezeRotation = false;
-            if (moveHorizontal <= 0.0f)
+            if (isgrounded)
             {
-                if (!direction)
+                int multiplier = 1;
+                float moveHorizontal = Input.GetAxis("Horizontal");
+                Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
+                rb.freezeRotation = false;
+                if (moveHorizontal <= 0.0f)
                 {
-                    rb.velocity = new Vector2(1.0f, 0.0f);
-                    rb.freezeRotation = true;
+                    if (!direction)
+                    {
+                        rb.velocity = new Vector2(1.5f, 0.0f);
+                        rb.freezeRotation = true;
+                    }
+                    direction = true;
                 }
-                direction = true;
-            }
-            else
-            {
-                if (direction)
+                else
                 {
-                    rb.velocity = new Vector2(1.0f, 0.0f);
-                    rb.freezeRotation = true;
+                    if (direction)
+                    {
+                        rb.velocity = new Vector2(1.5f, 0.0f);
+                        rb.freezeRotation = true;
+                    }
+                    direction = false;
                 }
-                direction = false;
-            }
 
-            this.GetComponent<Rigidbody2D>().AddForce(movement * multiplier * speed * Time.deltaTime);
+                this.GetComponent<Rigidbody2D>().AddForce(movement * multiplier * speed * Time.deltaTime);
+            }
+        }
+        else
+        {
+            rb.velocity = new Vector2(0.0f, 0.0f);
         }
     }
 

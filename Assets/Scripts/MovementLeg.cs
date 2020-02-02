@@ -9,6 +9,7 @@ public class MovementLeg : MonoBehaviour
     Animator anim;
     Vector3 reset = new Vector3(0.0f, 0.0f, 0.0f);
     public bool legfixed = false;
+    public GameObject eventmanager;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,49 +21,56 @@ public class MovementLeg : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (legfixed)
+        if (!eventmanager.GetComponent<EventManager>().playerisquiet)
         {
-            transform.localEulerAngles = reset;
-        }
-        
-        if (isgrounded)
-        {
-            int multiplier = 1;
-            float moveHorizontal = Input.GetAxis("Horizontal");
-            Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
-            rb.freezeRotation = false;
-            if (moveHorizontal < 0.0f)
+            if (legfixed)
             {
-                Vector3 aux = new Vector3(-0.3f, 0.3f, 1.0f);
-                this.gameObject.transform.localScale = aux;
-                if (!direction)
-                {
-                    rb.velocity = new Vector2(1.0f, 0.0f);
-                    rb.freezeRotation = true;
-                }
-                direction = true;
-                anim.SetBool("iswalking", true);
-            }
-            else if (moveHorizontal>0.0f)
-            {
-                Vector3 aux= new Vector3(0.3f, 0.3f, 1.0f);
-                this.gameObject.transform.localScale = aux;
-                if (direction)
-                {
-                    rb.velocity = new Vector2(1.0f, 0.0f);
-                    rb.freezeRotation = true;
-                }
-                direction = false;
-                anim.SetBool("iswalking", true);
-            }
-            else
-            {
-                rb.velocity = new Vector2(0.0f, 0.0f);
-                rb.freezeRotation = true;
-                anim.SetBool("iswalking", false);
+                transform.localEulerAngles = reset;
             }
 
-            this.GetComponent<Rigidbody2D>().AddForce(movement * multiplier * speed * Time.deltaTime);
+            if (isgrounded)
+            {
+                int multiplier = 1;
+                float moveHorizontal = Input.GetAxis("Horizontal");
+                Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
+                rb.freezeRotation = false;
+                if (moveHorizontal < 0.0f)
+                {
+                    Vector3 aux = new Vector3(-0.9f, 0.9f, 1.0f);
+                    this.gameObject.transform.localScale = aux;
+                    if (!direction)
+                    {
+                        rb.velocity = new Vector2(1.0f, 0.0f);
+                        rb.freezeRotation = true;
+                    }
+                    direction = true;
+                    anim.SetBool("iswalking", true);
+                }
+                else if (moveHorizontal > 0.0f)
+                {
+                    Vector3 aux = new Vector3(0.9f, 0.9f, 1.0f);
+                    this.gameObject.transform.localScale = aux;
+                    if (direction)
+                    {
+                        rb.velocity = new Vector2(1.0f, 0.0f);
+                        rb.freezeRotation = true;
+                    }
+                    direction = false;
+                    anim.SetBool("iswalking", true);
+                }
+                else
+                {
+                    rb.velocity = new Vector2(0.0f, 0.0f);
+                    rb.freezeRotation = true;
+                    anim.SetBool("iswalking", false);
+                }
+
+                this.GetComponent<Rigidbody2D>().AddForce(movement * multiplier * speed * Time.deltaTime);
+            }
+        }
+        else
+        {
+            rb.velocity = new Vector2(0.0f, 0.0f);
         }
     }
 

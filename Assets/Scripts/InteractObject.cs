@@ -6,14 +6,11 @@ public class InteractObject : MonoBehaviour
 {
     public GameObject popin;
     bool interacting = false;
-    public GameObject evolve;
     public KeyCode key;
     public GameObject statemanager;
 
-    Animator anim;
     void Start()
     {
-        anim = evolve.GetComponent<Animator>();
     }
 
     // Update is called once per frame
