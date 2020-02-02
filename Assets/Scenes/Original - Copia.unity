@@ -1045,7 +1045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textmanager: {fileID: 249338352}
   text: "> Mira! Es una de tus partes, con raz\xF3n no la encontraba en mis assets...
-    o:\n> Puedes ayudarme a encontrar el resto? uwu"
+    (; \xBA`\u0434\xBA\xB4)\r\n> Puedes ayudarme a encontrar el resto ? ('\xB7 \u03C9
+    \xB7')"
   reset: 0
   resettime: 5
   resetpos: {fileID: 1005897617}
@@ -5147,8 +5148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textmanager: {fileID: 249338352}
-  text: "> AHA! \n> Tard\xE9 programando este puzzle 2 d\xEDas, apuesto que no podr\xE1s
-    resolverlo (>u>)\u03A8   "
+  text: "> BUEN INTENTO!  \u2310\u2584_\u2584\r\n> Tard\xE9 programando este puzzle
+    2 d\xEDas, apuesto que no podr\xE1s resolverlo(> \u1D17 <)\u03A8   "
   reset: 0
   resettime: 0
   resetpos: {fileID: 0}
@@ -5488,7 +5489,7 @@ MonoBehaviour:
   fallMultiplier: 1.6
   lowJumpMultiplier: 1.3
   jumpVelocity: 9
-  steps: {fileID: 1633119543}
+  steps: {fileID: 0}
   maxVelocity: 5
   speed: 400
 --- !u!4 &1079538120 stripped
@@ -5846,7 +5847,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textmanager: {fileID: 249338352}
-  text: "> Ya sab\xEDa yo que te ibas a quedar atorado\n> Te ayudar\xE9 c:"
+  text: "> Ya sab\xEDa yo que te ibas a quedar atorado(\u2500_\u2500;)\r\n> No es
+    facil ubicarte con CTRL + Z para arreglar tus desastres(\xAF\u2015\xAF;)"
   reset: 1
   resettime: 5
   resetpos: {fileID: 1005897617}
@@ -7264,8 +7266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textmanager: {fileID: 249338352}
-  text: "> Creo que olvid\xE9 ponerle collider a algunas cosas \xAF\\_(e_e)_/\xAF\n>
-    Apreciar\xEDa que te quedaras quieto mientras arreglo todo :)"
+  text: "> Creo que olvid\xE9 ponerle collider a algunas cosas \xAF\\_(e_e)_ /\xAF\r\n>
+    Apreciar\xEDa que te quedaras quieto mientras arreglo todo.^ \u1D17 ^."
   reset: 1
   resettime: 0
   resetpos: {fileID: 620164939}
@@ -9299,8 +9301,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textmanager: {fileID: 249338352}
-  text: "> Hola \\(^\u1D17^)/\n> Soy tu programador, algo as\xED como Dios, pero mejor
-    ( \u0361\xB0 \u035C\u0296 \u0361\xB0)"
+  text: "> Hola asset inacabado bienvenido a mi paraiso en construcci\xF3n  \\(^\u1D17
+    ^) /\r\n> Soy tu programador, algo as\xED como Dios, pero mejor( \u0361\xB0 \u035C\u0296
+    \u0361\xB0)"
   reset: 0
   resettime: 0
   resetpos: {fileID: 620164939}
@@ -9429,9 +9432,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textmanager: {fileID: 249338352}
-  text: '> ...
-
-    > No me obligues a programarte obediencia >_> '
+  text: "> Con calma, paso a paso, sin afanes(; \xBA`\u0434\xBA\xB4)\r\n> No me obligues
+    a programarte obediencia \u2310\u2584_\u2584"
   reset: 1
   resettime: 0
   resetpos: {fileID: 620164939}
