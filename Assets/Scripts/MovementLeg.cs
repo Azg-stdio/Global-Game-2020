@@ -15,6 +15,8 @@ public class MovementLeg : MonoBehaviour
     public float lowJumpMultiplier = 2.0f;
     public float jumpVelocity = 5.0f;
 
+    public AudioSource steps;
+
     public float maxVelocity = 5.0f;
 
     void Start()
@@ -29,9 +31,12 @@ public class MovementLeg : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isgrounded)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = Vector2.up * jumpVelocity;
+            if (isgrounded)
+            {
+                rb.velocity = Vector2.up * jumpVelocity;
+            }
         }
         if (rb.velocity.y < 0)
         {
@@ -74,12 +79,17 @@ public class MovementLeg : MonoBehaviour
                     }
                     direction = false;
                     anim.SetBool("iswalking", true);
+                if (!steps.isPlaying)
+                {
+                    steps.Play();
+                }
                 }
                 else
                 {
                     rb.velocity = new Vector2(0.0f, rb.velocity.y);
                     rb.freezeRotation = true;
                     anim.SetBool("iswalking", false);
+                steps.Stop();
                 }
 
                 this.GetComponent<Rigidbody2D>().AddForce(movement * multiplier * speed * Time.deltaTime);
