@@ -15,11 +15,13 @@ public class MovementLeg : MonoBehaviour
     public float lowJumpMultiplier = 2.0f;
     public float jumpVelocity = 5.0f;
 
+    public float maxVelocity = 5.0f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        GetComponent<BoxCollider2D>().enabled = true;
+        GetComponent<CircleCollider2D>().enabled = true;
     }
 
     bool direction;
@@ -27,6 +29,18 @@ public class MovementLeg : MonoBehaviour
     
     void FixedUpdate()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && isgrounded)
+        {
+            rb.velocity = Vector2.up * jumpVelocity;
+        }
+        if (rb.velocity.y < 0)
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        else if (rb.velocity.y > 0 && !Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+        }
         if (!eventmanager.GetComponent<EventManager>().playerisquiet)
         {
             if (legfixed)
@@ -74,18 +88,14 @@ public class MovementLeg : MonoBehaviour
         else
         {
             rb.velocity = new Vector2(0.0f, 0.0f);
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && isgrounded)
+        }        
+        if (rb.velocity.x > maxVelocity)
         {
-            rb.velocity = Vector2.up * jumpVelocity;
+            rb.velocity = new Vector2(maxVelocity, rb.velocity.y);
         }
-        if (rb.velocity.y < 0)
+        if (rb.velocity.x < (0-maxVelocity))
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
-        else if (rb.velocity.y > 0 && !Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            rb.velocity = new Vector2(-maxVelocity, rb.velocity.y);
         }
     }
 

@@ -19,7 +19,7 @@ public class SpawnRandomCloud : MonoBehaviour
         {
             randomst = Random.Range(0, 5);
             Instantiate(clouds[randomst], new Vector3(-100.0f, 0.0f, 0.0f), Quaternion.identity);
-            yield return new WaitForSeconds(5.0f);
+            yield return new WaitForSeconds(8.0f);
         }
     }
 }

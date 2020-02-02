@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Physics2D.gravity=new Vector3(0.0f, -9.0f, 0.0f);
     }
 
     bool direction;
@@ -53,7 +54,7 @@ public class Movement : MonoBehaviour
         else
         {
             rb.velocity = new Vector2(0.0f, 0.0f);
-        }        
+        }     
     }
 
     void OnCollisionEnter2D(Collision2D col)

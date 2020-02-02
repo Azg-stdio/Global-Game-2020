@@ -8,6 +8,7 @@ public class InteractionManager : MonoBehaviour
     [TextArea]
     public string text;
     public bool reset;
+    public float resettime = 0.0f;
     public Transform resetpos;
     public bool repeat;
     bool onetime;
@@ -45,6 +46,7 @@ public class InteractionManager : MonoBehaviour
         textmanager.GetComponent<SetText>().StartText(text);
         if (reset)
         {
+            yield return new WaitForSeconds(resettime);
             col.transform.position = resetpos.position;
         }
         if (quiettime > 0)

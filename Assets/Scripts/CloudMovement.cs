@@ -14,7 +14,7 @@ public class CloudMovement : MonoBehaviour
         {
             if (!staticpos)
             {
-                transform.position = new Vector3(-45.0f, Random.Range(0.0f, 7.0f), 0.0f);
+                transform.position = new Vector3(-45.0f, Random.Range(-30.0f, 15.0f), 0.0f);
             }
             direction = true;
         }
@@ -22,7 +22,7 @@ public class CloudMovement : MonoBehaviour
         {
             if (!staticpos)
             {
-                transform.position = new Vector3(30.0f, Random.Range(0.0f, 7.0f), 0.0f);
+                transform.position = new Vector3(150.0f, Random.Range(-30.0f, 15.0f), 0.0f);
             }
             direction = false;
         }
@@ -46,7 +46,7 @@ public class CloudMovement : MonoBehaviour
 
     IEnumerator KillMePls()
     {
-        yield return new WaitForSeconds(30.0f);
+        yield return new WaitForSeconds(100.0f);
         Destroy(this.gameObject);
     }
 }
