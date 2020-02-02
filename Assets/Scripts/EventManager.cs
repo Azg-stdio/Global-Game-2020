@@ -5,26 +5,16 @@ using UnityEngine;
 public class EventManager : MonoBehaviour
 {
     public bool playerisquiet = false;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void StartEvent()
+    public void StartEvent(float time)
     {
         playerisquiet = true;
-        StartCoroutine(WaitForFinish());
+        StartCoroutine(WaitForFinish(time));
     }
 
-    IEnumerator WaitForFinish()
+    IEnumerator WaitForFinish(float time)
     {
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(time);
         playerisquiet = false;
     }
 }

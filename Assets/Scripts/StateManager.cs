@@ -33,7 +33,7 @@ public class StateManager : MonoBehaviour
         {
             ball.transform.position = new Vector3(ball.transform.position.x, ball.transform.position.y+0.3f, ball.transform.position.z);
         }
-        eventmanager.GetComponent<EventManager>().StartEvent();
+        eventmanager.GetComponent<EventManager>().StartEvent(3.0f);
         if (stateset > 0)
         {
             ball.GetComponent<CapsuleCollider2D>().offset = new Vector2(0.008036428f, -0.3679461f);
